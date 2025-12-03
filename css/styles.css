@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: linear-gradient(to top, #8e9eab, #eef2f3);
+  color: #393d41;
+  display: grid;
+  place-items: center center;
+  place-content: center center;
+  width: 100vw;
+  min-height: 100svh;
+}
+
+main {
+  display: grid;
+  place-items: center center;
+  gap: 5vh 0;
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1;
+  }
+  img {
+    width: auto;
+    height: 20vh;
+  }
+  p {
+    margin: 0;
+  }
+}
